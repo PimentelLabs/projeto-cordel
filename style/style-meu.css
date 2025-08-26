@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 * {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
 }
 
 :root {
     --fonte01: "Passion One", cursive;
     --fonte02: "Sriracha", cursive;
     --fonte03: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--fonte03);
 }
 
 header {
@@ -48,7 +58,7 @@ main {
 }
 
 #container2 {
-    background-image: url('images/girassol.jpg');
+    background-image: url('../images/girassol.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +67,7 @@ main {
 }
 
 #container4 {
-    background-image: url('images/livro.jpg');
+    background-image: url('../images/livro.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -73,7 +83,7 @@ main {
      height: fit-content;
     width: 300px;
     margin: 50px;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 .conteudo2 {
